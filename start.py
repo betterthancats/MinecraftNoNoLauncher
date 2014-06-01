@@ -39,7 +39,7 @@ minecraftDir + r"\libraries\net\minecraft\launchwrapper\1.5\launchwrapper-1.5.ja
   minecraftDir + r"\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.0\lwjgl_util-2.9.0.jar;" + 
   minecraftDir + "/versions/" + minecraftVersion + "/" + minecraftVersion + ".jar",
 r"net.minecraft.launchwrapper.Launch",
-minecraftUsername,
+minecraftUsername.split("@")[0],
 minecraftSessionId,
 r"--gameDir",
 minecraftDir, 
